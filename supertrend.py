@@ -11,6 +11,9 @@ import numpy as np
 from datetime import datetime
 import time
 
+#  first change
+# second
+
 exchange = ccxt.binanceus({
     "apiKey": config.BINANCE_API_KEY,
     "secret": config.BINANCE_SECRET_KEY
@@ -57,7 +60,7 @@ def supertrend(df, period=7, atr_multiplier=3):
         
     return df
 
-
+print("hello")
 in_position = False
 
 def check_buy_sell_signals(df):
